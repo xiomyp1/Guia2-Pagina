@@ -143,6 +143,40 @@ p {
     }
 }
 
+/* Footer */
+
+footer {
+    width: 100%;
+    padding: 50px 0px;
+    background-color: whitesmoke;
+}
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 5px;
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+}
+
+footer p {
+    color:rgba(23, 27, 25, 0.8);
+}
+
 /* Header */
 
 header {
