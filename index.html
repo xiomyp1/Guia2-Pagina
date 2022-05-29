@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
+
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;hl=es&amp;key=AIzaSyC1m-pjWkpWpxZqX4IjW_tqEHPAuQylrAY " type="text/javascript"></script>
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +11,20 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript">
+        function load() {
+          if (GBrowserIsCompatible()) {
+            var latitud = 48.858729;
+            var longitud = 2.352448;
+            var zoom = 15;
+            var mapa = new GMap2(document.getElementById("mapa"));
+            mapa.setCenter(new GLatLng(latitud, longitud), zoom);
+          }
+        }
+        </script>
 </head>
-<body>
+
+<body> 
     <header class="transparente">
         <img src="img/logof.jpg" alt="Logo">
         <nav>
@@ -42,8 +58,8 @@
     <div class="fila primera">
         <span id="pr">&nbsp;</span>
         <div class="col-66">
-            <p>Si tienes una familia con integrantes pequeños y están planeando sus próximas vacaciones, llegaste al lugar indicado. Hoy, en este post, te contaremos cuales son, para nosotros, los mejores destinos para viajar con niños en América Latina. Continúa leyendo hasta el final, que de seguro encontrarás tu lugar en el mundo y no querrás regresar.</p>
-            <p> Para esta selección, pensamos especialmente en los mas chicos, la seguridad, confort y diversión entre toda la familia, tanto para ellos como para los más grandes y adultos..</p>
+            <p>Si tienes una familia con niños enrte los 0 y los 12 años, y estas planeando sus próximas vacaciones, llegaste al lugar indicado! En este site te contaremos cuáles son los mejores destinos en América Latina para viajar con niños. Continúa leyendo hasta el final y seguro encontrarás ese lugar en el mundo del que no querrás regresar.</p>
+            <p> Para esta selección, pensamos especialmente en los mas chicos pues sabemos que su seguridad es tú tranquilidad.  Además encuentra confort y diversión para toda la familia</p>
         </div>
         <div class="col-33">
             <img src="img/familia1.jpg" alt="imagen casa">
@@ -54,13 +70,13 @@
             <img src="img/familia2.jpg" alt="imagen de familia">
         </div>
         <div class="col-50">
-            <p>Las vacaciones en familia son una auténtica fuente de recuerdos maravillosos e inolvidables (así que tranquilo y no sientas presión de ningún tipo, ¡eh!). Además de una buena planeación y unas expectativas realistas, también puede irte bien un poco de inspiración que te ayude a crear una escapada inolvidable para toda la familia, sin importar tu presupuesto.
-                Viajar en familia puede ser el mejor plan tanto para padres como para niños ya que se trata de un plan que permite a los más pequeños experimentar sensaciones totalmente nuevas, conocer lugares desconocidos y empaparse de la historia y la cultura de distintos espacios y ciudades. Un plan genial para hacer en vacaciones y visitar en familia lugares escondidos por el mundo.</p>
+            <p>Las vacaciones en familia son una auténtica fuente de recuerdos maravillosos e inolvidables (así que tranquilo y no sientas presión de ningún tipo, ¡eh!). Además de una buena planeación y unas expectativas realistas, también puede irte bien un poco de inspiración que te ayude a crear una escapada inolvidable para todos, sin importar tu presupuesto.
+                Viajar en familia puede ser el mejor plan tanto para padres como para niños, pues es un espacio que permite experimentar sensaciones totalmente nuevas, conocer lugares desconocidos y empaparse de la historia y la cultura de distintos espacios y ciudades. Anímate a viajar en tus próximas vacaciones! Visita en familia lugares escondidos por el mundo.</p>
         </div>
     </div>
     <div class="fila parallax">
         <div class="col-100">
-            <p>FAMSUMMER es un blog hecho para las familias conoce nuestros recomendados para viajar con los mas pequeños de casa.</p>
+            <p>FAMSUMMER es un blog hecho para las familias, aquí encontrarás las mejores ecomendaciones para viajar y planear tus vacaciones sin morir en el intento.</p>
         </div>
     </div>
 
@@ -70,7 +86,7 @@
         </div>
         <div class="col-50">
             <p>Viajar con niños cambiará por completo tu forma de viajar, pero será una experiencia de conexión entre la familia. Sin dudas será diferente, pero no imposible – a diferencia de lo que muchos creen. 
-             Cuando viajas con tu bebé, lo más importante es que tú y el pequeño disfruten de este tiempo para estar juntos, conocer otro lugar y divertirse en familia. Por eso, lo más recomendado es pasar unas vacaciones relajadas en un entorno tranquilo y natural.</p>
+             Cuando viajas con pequeños, lo más importante es que tú y ellos disfruten de este tiempo para estar juntos, conocer otro lugar y divertirse en familia. Por eso, lo más recomendado es pasar unas vacaciones relajadas en un entorno tranquilo y natural.</p>
         </div>
     </div>
     <div class="fila">
@@ -96,13 +112,13 @@
                 Los entornos salvajes no son apropiados para tu bebé, por lo que deberás evitar las excursiones por la selva, por ejemplo.
             </li>
             <li>
-                Es mejor elegir destinos donde todo esté a mano y las actividades sean mas bien tranquilas y relajadas. De esta manera no sobreexcitas al niño.
+                Es mejor elegir destinos donde los servicios básicos de alimentación, sanidad, transporte y hospitalarios estén cerca! También sugerimos que elijas actividades tranquilas y relajadas. De esta manera no sobreexcitas al niño.
             </li>
             <li>
-                Opta por lugares donde la comida no sea exótica, sino mas bien similar a la de tu casa, no sabes como podrá sentarle.
+                Opta por lugares donde la comida no sea exótica, que los ingredientes y preparaciones sean naturales y parecidos a los que utilizas en tu hogar, esto puede evitarte contratiempos.
             </li>
             <li>
-                si es posible, trata de hacer coincidir el horario de tu vuelo con el horario en que tu bebé duerme.
+                Si es posible, trata de hacer coincidir el horario de tu vuelo con el horario en que tu bebé duerme.
             </li>
             <li>
                 Además del documento de identidad de tu bebé, lleva su pasaporte, tarjeta sanitaria y carnet de vacunación.
@@ -121,13 +137,17 @@
             </li>
         </ul>
     </div>
-    <footer>
-        <div class="container__footer">
+    <footer onload="load()" onunload="GUnload()">
+        <div class="container__footer" id="mapa" style="width: 500px; height: 400px">
+            
+            <h1>Nuestra Sede</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.730148854742!2d-74.07245378595617!3d4.642151943456786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a36b04e3211%3A0x60807411ecee0115!2sCra.%2018a%20%235379%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1653779492413!5m2!1ses!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
             <div class="box__footer">
                 <div class="terms">
                     <h1>FAMSUMMER</h1>
                     <p>FAMSUMMER es un blog donde ponemos a tu disposicion informacion de distintos lugares en el mundo,donde podras ir de vacaciones con tus hijos y aprovechar todas las actividades que ofrecen estos para toda la familia.</p>
-                </div>
+               </div>
             </div>
         </div> 
         <div class="box__copyright">
