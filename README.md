@@ -1,4 +1,4 @@
 # Guia2-Pagina
-En este repositorio encontramos desarrolla nuestra pagina web.
-En esta se trabajo con HTML5, CSS3 y JavaScript.
-Esta es una pagina Sencilla, en la que aplicamos conceptos basicos de desarroollo web.
+En este repositorio desarrollamos una página web de viajes
+Durante la entrega actual se utilizan los lenguajes HTML5, CSS3 y JavaScript.
+Mediante este ejercicio práctico desarrollamos una página web en la que aplicamos conceptos básicos de desarroollo web.
